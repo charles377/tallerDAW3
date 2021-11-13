@@ -8,7 +8,7 @@ var g_lastcount = 0;
 
 
 function get_booklist(){
- AJAX.execute('xml/amazon.xml', ajax_response);
+ AJAX.execute('xml/materias.xml', ajax_response);
 }
 function getChildrenByTagName(element,name){
  var list = new Array();
